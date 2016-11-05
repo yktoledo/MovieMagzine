@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_movie_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.app.anand.moviemagzine2.MovieDetails"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/posterImg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/movieDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/posterImg"
+        android:textStyle="bold"/>
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/checkbox_id"
+    android:text="Favorite "
+    android:layout_below="@id/movieDetails"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Review"
+        android:layout_below="@id/checkbox_id"
+        android:layout_alignParentRight="true"
+        android:id="@+id/reviewPost"/>
+    <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/trailerView"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/reviewPost"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userReviews"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/trailerView"
+        >
+
+    </ExpandableListView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

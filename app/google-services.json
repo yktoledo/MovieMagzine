@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "12486346114",
+    "firebase_url": "https://moviemeridian-376c7.firebaseio.com",
+    "project_id": "moviemeridian-376c7",
+    "storage_bucket": "moviemeridian-376c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12486346114:android:ad2458e130cfebda",
+        "android_client_info": {
+          "package_name": "org.app.anand.moviemagzine2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12486346114-hq0d6t90oehln3rc3ae3hfrcfbuabgev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.app.anand.moviemagzine2",
+            "certificate_hash": "A30D144CD1FBE2D074C8AF6AECA1EC67C92EBB6C"
+          }
+        },
+        {
+          "client_id": "12486346114-9472halakb5hqhir5k58473iviin348k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjTwfb0sPZmSrkCH80Cxwy5OXb00itQQk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12486346114-9472halakb5hqhir5k58473iviin348k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
